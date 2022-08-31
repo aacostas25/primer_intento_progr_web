@@ -1,0 +1,53 @@
+body {
+    background-color:white;
+}
+h1 {
+    color: blueviolet;
+    margin-left: 20px;
+}
+
+p {
+    color: blue;
+    font-size: 40px;
+}
+
+/* class */
+.parrafo {
+    color: red;
+}
+
+/* id */
+#texto {
+    color: yellow;
+    font-size: 24px;
+}
+
+.main-nav {
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0;
+    background-color: green;
+}
+
+.main-nav_item {
+    display: inline-block;
+}
+
+.main-nav_item a { /* solo esta asociado a los a dentro de esta clase */
+    color: white;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+.main-nav_item a:hover{ /*pasa la mano por encima*/
+    color: black;
+}
+
+.main-nav_item a:active { /*cuando hace click*/
+    color: red;
+}
+
+.main-nav_item a::after {
+    content: " | ";
+}
